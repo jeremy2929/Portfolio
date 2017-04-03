@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "heroku-postbuild": "webpack",
-    "test": "jest"
+    "test": "jest",
+    "gojo": "open http://localhost:5000/#/"
+
   },
   "author": "",
   "license": "ISC",
