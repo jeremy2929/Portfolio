@@ -1,15 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router'
 
-//export default React.createClass({
-// render() {
-//   window.scroll(0, 0)
-//   return (
-
-
-  function scrollUp(){
-    window.scroll(0, 0)
-  }
+function scrollUp(){
+  window.scroll(0, 0)
+}
 
 export function Posts() {
   var element = (

@@ -44,12 +44,12 @@ export function Home(){
         </div>
         )
       }
-  });
-  function projectCollapse(){
-      document.getElementById("ProjectArea").className="project_area_collapse"
-      document.getElementById("introText").className="intro_text_hidden"
-  }
-  //<p className="intro_text" id="introText">I bring a long history of writing functional code to the world of web development and styling.  I focus on writing code which<span className="intro_text_italics">performs</span>, as well as looking good. </p>
+  })
+
+function projectCollapse(){
+    document.getElementById("ProjectArea").className="project_area_collapse"
+    document.getElementById("introText").className="intro_text_hidden"
+}
 
   function mainPage() {
     const elementMain = (
@@ -74,7 +74,7 @@ export function Home(){
     ReactDOM.render(
       elementMain,
       document.getElementById("main")
-    );
+    )
   }
-  mainPage();
+  mainPage()
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router'
 import ReactDOM from 'react-dom'
 import {Home} from './home'
 import {Bio} from './aboutMe'
