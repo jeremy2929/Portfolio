@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router'
 import Projects from './projects'
 import ReactDOM from 'react-dom'
 

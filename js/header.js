@@ -5,13 +5,6 @@ import {Bio} from './aboutMe'
 import {Photos} from './photos'
 import {Posts} from './posts'
 
-function onDropChange(e) {
-  var path = e.target.value
-  if (path != "Projects") {
-    window.open(path, '_blank')
-  }
-}
-
 function onClickGitHub() {
   window.open("https://github.com/jeremy2929", '_blank')
 }
