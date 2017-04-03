@@ -4,7 +4,7 @@ import { Router, Route, hashHistory } from 'react-router'
 import App from './app'
 import {Home} from './home'
 import Header from './header'
-import Blog from './blog'
+import Posts from './posts'
 import aboutMe from './aboutMe'
 import Photos from './photos'
 //<Route path="/" component={Home}/>
@@ -22,18 +22,4 @@ Home()
 //     </Router>
 //   ),
 //   document.getElementById('header')
-// )
-
-
-
-// //
-// // render(
-// //   (
-// //     <Router history={hashHistory}>
-// //       <Route component={App}>
-// //         <Route path="/" component={Home}/>
-// //       </Route>
-// //     </Router>
-// //   ),
-// //   document.getElementById('main')
 // )

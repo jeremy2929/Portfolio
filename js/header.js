@@ -2,7 +2,9 @@ import React from 'react'
 import { Link } from 'react-router'
 import ReactDOM from 'react-dom'
 import {Home} from './home'
-import {bio} from './aboutMe'
+import {Bio} from './aboutMe'
+import {Photos} from './photos'
+import {Posts} from './posts'
 
 function onDropChange(e) {
   var path = e.target.value
@@ -10,27 +12,46 @@ function onDropChange(e) {
     window.open(path, '_blank')
   }
 }
+
 function onClickGitHub() {
   window.open("https://github.com/jeremy2929", '_blank')
 }
+
 function hoverOnMyImage() {
   document.getElementById("myImage").className="myImageLarge"
 }
+
 function hoverOffMyImage() {
   document.getElementById("myImage").className="myImage"
 }
-function bioLink(){
-  var element = bio()
+
+function postsLink(){
+  var element = Posts()
   ReactDOM.render(
     element,
     document.getElementById("main")
   )
 }
+
+function photosLink(){
+  var element = Photos()
+  ReactDOM.render(
+    element,
+    document.getElementById("main")
+  )
+}
+
+function bioLink(){
+  var element = Bio()
+  ReactDOM.render(
+    element,
+    document.getElementById("main")
+  )
+
+}
 function homeLink(){
   Home()
 }
-
-//<a className="homeButton" href="#" onClick={Home()}>Home</a>
 
 function render() {
   const elementHeader = (
@@ -49,9 +70,9 @@ function render() {
           </div>
           <section className="navTopRight">
             <a className="homeButton" href="#" onClick={homeLink}>Home</a>
-            <text  className="postsButton">Posts</text>
-            <text  className="photosButton">Photos</text>
-            <a className="photosButton" href="#" onClick={bioLink}>AboutMe</a>
+            <a className="navButton" href="#" onClick={postsLink}>Posts</a>
+            <a className="navButton" href="#" onClick={photosLink}>Photos</a>
+            <a className="navButton" href="#" onClick={bioLink}>AboutMe</a>
             <a className="github_icon" href="#" onClick={onClickGitHub}>
               <i className="fa fa-github" aria-hidden="true"> GitHub</i>
             </a>
