@@ -47,14 +47,30 @@ export default React.createClass({
   chatApp() {
     window.open("https://chat-app-jw.herokuapp.com/", '_blank')
   },
+
   render() {
     return (
-        <section className="projects_list">
-              <div className="sudoku_area">
-                         <p className="sudoku_title">Sudoku Solver</p>
-                         <img className="sudoku_image" src="styles/sudoku.jpg" onClick={this.sudoku}/>
-              </div>
-        </section>
+      <div className="sudoku_area">
+         <p className="sudoku_title">Sudoku Solver</p>
+           <div className="wrap"  >
+             <div className="cube">
+               <div className="top"></div>
+               <div className="front">
+                 <img className="sudokuImageCube" src="styles/sudoku_solved.jpg"/>
+               </div>
+               <div className="back">
+                 <img className="sudokuImageCube" src="styles/sudoku_solved.jpg"/>
+               </div>
+                <div className="right">
+                 <img className="sudokuImageCube" src="styles/sudoku_puzzle.jpg"/>
+               </div>
+               <div className="left">
+                 <img className="sudokuImageCube" src="styles/sudoku_puzzle.jpg"/>
+               </div>
+               <div className="bottom"></div>
+            </div>
+          </div>
+      </div>
     )
   }
 })

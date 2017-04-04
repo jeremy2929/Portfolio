@@ -3,6 +3,9 @@ import Projects from './projects'
 import ReactDOM from 'react-dom'
 import Timer from './timer'
 
+
+
+
 export function Home(){
 
   function projectCollapse(){
@@ -12,7 +15,7 @@ export function Home(){
 
   function mainPage() {
     const elementMain = (
-      <div>
+      <div className="home_page">
         <section className="home_area">
           <article className="my_name_area">
             <h1 className="my_name">Jeremy Ward</h1>
@@ -24,10 +27,11 @@ export function Home(){
             </div>
           </div>
           <Timer start={Date.now()} />
-          <article className="projects_list">
-            <Projects/>
-          </article>
+
         </section>
+        <article className="projects_list">
+          <Projects/>
+        </article>
       </div>
     )
     ReactDOM.render(
@@ -37,3 +41,6 @@ export function Home(){
   }
   mainPage()
 }
+
+
+//<p className="intro_text" id="introText">I bring a long history of writing functional code to the world of web development and styling.  I focus on writing code which<span className="intro_text_italics">performs</span>, as well as looking good. </p>
