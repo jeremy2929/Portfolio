@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 
 export function Photos(){
   var element = (
@@ -7,7 +8,6 @@ export function Photos(){
       <a className="theIronYard" href="https://www.theironyard.com/">The Iron Yard:
       </a>
       <img className="imageTIY" src="/styles/TIY.jpg"/>
-      <img className="imageCert" src="/styles/cert.png"/>
       <div>
           <p className="caption1">In the beginning...</p>
         <img className="photos" src="/styles/1.jpg"/>
@@ -27,6 +27,7 @@ export function Photos(){
         <img className="photos" src="/styles/10.jpg"/>
           <p className="caption1">Graduation!</p>
         <img className="photos" src="/styles/9.jpg"/>
+        <img className="imageCert" src="/styles/cert.png"/>
       </div>
     </section>
   )

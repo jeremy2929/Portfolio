@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {Home} from './home'
+import {Projects} from './projects'
 import {Bio} from './aboutMe'
 import {Photos} from './photos'
 import {Posts} from './posts'
@@ -15,6 +16,14 @@ function hoverOnMyImage() {
 
 function hoverOffMyImage() {
   document.getElementById("myImage").className="myImage"
+}
+
+function projects(){
+  var element = Projects()
+  ReactDOM.render(
+    element,
+    document.getElementById("main")
+  )
 }
 
 function postsLink(){
@@ -39,7 +48,6 @@ function bioLink(){
     element,
     document.getElementById("main")
   )
-
 }
 function homeLink(){
   Home()
@@ -62,6 +70,7 @@ function render() {
           </div>
           <section className="navTopRight">
             <a className="homeButton" href="#" onClick={homeLink}>Home</a>
+            <a className="navButton" href="#" onClick={projects}>Projects</a>
             <a className="navButton" href="#" onClick={postsLink}>Posts</a>
             <a className="navButton" href="#" onClick={photosLink}>Photos</a>
             <a className="navButton" href="#" onClick={bioLink}>AboutMe</a>
