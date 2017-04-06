@@ -6,7 +6,7 @@ function scrollUp(){
 
 export function Posts() {
   var element = (
-    <section className="postsSection">
+    <section className="posts_section">
       <h1 className="postsTextTitle">I collect various quotes and sayings as I encounter them:</h1>
       <ol>
         <li className="postsText">1.  The past is a construct of the mind.  It blinds us and fools us into believing it.  But the heart wants to live in the present.</li>
