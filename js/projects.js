@@ -3,7 +3,13 @@ import { render } from 'react-dom'
 import {Link} from 'react-router'
 import ReactDom from 'react-dom';
 
+function sudokuApp(){
+  window.open("https://sudoku-puzzle-sa.herokuapp.com", '_blank')
+}
 
+function sudokuCode(){
+  window.open("https://github.com/jeremy2929/Sudoku-Solver", '_blank')
+}
   // sudoku() {
   //   window.open("https://sudoku-puzzle-sa.herokuapp.com", '_blank')
   // },
@@ -75,6 +81,8 @@ export function Projects() {
           <p className="sudoku_text">
             This app allows you to enter a Sudoku puzzle and then click Solve button to have the app solve the puzzle.  It will display an error message if a bad puzzle has been entered.  To enter a puzzle, click on each box and type in the number.  The method used to solve is methodical brute force.
           </p>
+          <button className="sudoku_app" onClick={sudokuApp}>Run Sudoku App</button>
+          <button className="sudoku_code"onClick={sudokuCode}>View Code</button>
         </aside>
         <article className="slide_button_area">
           <button className="slide_button_left" onClick={prevDivs}>&#8678;PREV</button>
@@ -104,6 +112,8 @@ export function Projects() {
         <p className="spurs_blog_text">
           Week 6: A four member team project on a given school assignment - All about the Spurs blog site.
         </p>
+      <button className="spurs_app"></button>
+      <button className="spurs_code"></button>
       </aside>
     <article className="slide_button_area">
       <button className="slide_button_left" onClick={prevDivs}>&#8678;PREV</button>
