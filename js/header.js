@@ -50,6 +50,7 @@ function bioLink(){
   )
 }
 function homeLink(){
+
   Home()
 }
 
@@ -69,13 +70,13 @@ function render() {
             </article>
           </div>
           <section className="navTopRight">
-            <a className="homeButton" href="#" onClick={homeLink}>Home</a>
+            <a className="navButton" href="#" onClick={homeLink}>Home</a>
             <a className="navButton" href="#" onClick={projects}>Projects</a>
             <a className="navButton" href="#" onClick={postsLink}>Posts</a>
             <a className="navButton" href="#" onClick={photosLink}>Photos</a>
             <a className="navButton" href="#" onClick={bioLink}>AboutMe</a>
             <a className="github_icon" href="#" onClick={onClickGitHub}>
-              <i className="fa fa-github" aria-hidden="true"> GitHub</i>
+              <i className="fa fa-github github_button" aria-hidden="true"> GitHub</i>
             </a>
           </section>
       </nav>
