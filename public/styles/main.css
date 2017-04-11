@@ -1554,11 +1554,17 @@
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 
-  .bodyPage{
-    /*background-image: url("/styles/desk.jpg");*/
+  /*.bodyPage{
+    background-image: url("/styles/desk.jpg");
     background-color: lightgrey;
     background-image: none;
     width: 100%;
+  }*/
+
+  .bodyPage{
+    width: 100%;
+    background-image: none;
+
   }
 
   .myInfoBox{
@@ -1627,8 +1633,15 @@ and (max-device-width : 480px) {
     height: 90em;
     margin-left: 0;
     margin-top: 5em;
-    width: 40em;
+    width: 46em;;
   }
+
+  .fade {
+    height: 90em;
+    width: 46em;
+  }
+
+
 
   /*.fade{
     font-size: 2em;
@@ -1640,7 +1653,7 @@ and (max-device-width : 480px) {
 
   .slide_button_area{
     top: 85em;
-    left: 10em;
+    left: 12em;
     margin-left: 0em;
     width: 20em;
   }

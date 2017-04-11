@@ -54,7 +54,6 @@ function bioLink(){
   )
 }
 function homeLink(){
-
   Home()
 }
 
