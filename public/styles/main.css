@@ -1550,16 +1550,18 @@
   width: auto;
 }
 
-@media screen and (max-width: 980px) {
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
 
   .bodyPage{
-    background-image: url("/styles/kb_large.jpg");
+    background-image: url("/styles/desk.jpg");
     width: 100%;
   }
 
   .navBar{
     background-color: lightgrey;
-    height: 20em;
+    height: 10em;
     width: 100%;
   }
 
@@ -1658,6 +1660,9 @@
     white-space: pre;
   }
 
+  .intro_area{
+    width: 30em;
+  }
   /*.titleDetailCSS{
     font-size: 60px;
     margin: 0;
