@@ -1575,6 +1575,7 @@ and (max-device-width : 480px) {
   .myContactInfo{
     font-size: 2em;
     margin-top: .2em;
+    width: 8em;
   }
 
   .navBar{
@@ -1599,7 +1600,7 @@ and (max-device-width : 480px) {
 
   .my_name_area{
     margin-top: 12em;
-    margin-left: 17%;
+    margin-left: 16%;
   }
 
   .intro_area{
@@ -1623,10 +1624,39 @@ and (max-device-width : 480px) {
 
   .project_area{
     font-size: 2em;
-    height: 30em;
+    height: 60em;
     margin-left: 0;
-    margin-top: 10em;
+    margin-top: 5em;
     width: 100%;
+  }
+
+  .slide_button_area{
+    top: 50em;
+    left: 10em;
+    margin-left: 0em;
+  }
+
+  .slide_button_left{
+
+    margin-left: 0em;
+
+  }
+
+  .tictactoe_title{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .tictactoe_image{
+    margin-left: 5%;
+  }
+
+  .tictactoe_app_button{
+    font-size: 1em;
+  }
+
+  .tictactoe_code_button{
+    font-size: 1em;
   }
 
   .posts_section{
