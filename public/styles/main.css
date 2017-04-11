@@ -1776,6 +1776,14 @@ and (max-device-width : 480px) {
     margin-top: 10em;
   }
 
+  .theIronYardTitle{
+    margin-left: 18%;
+  }
+
+  .caption1{
+    margin-left: 20%;
+
+  }
   /*.bio_Text{
     font-size: 2em;
     margin-left: 0em;
