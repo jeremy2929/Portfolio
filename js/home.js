@@ -3,30 +3,26 @@ import {Projects} from './projects'
 import ReactDOM from 'react-dom'
 import Timer from './timer'
 
-// import * as myModule from 'my-module'
-
-
-
+    // <marquee className="my_descriptions_right" direction="right">Developer                       Logic Coding                       Data Management </marquee>
 export function Home(){
-
-  
-
-  function projectCollapse(){
-      document.getElementById("IntroArea").className="intro_area_collapse"
-      document.getElementById("introText").className="intro_text_hidden"
+  function projects(){
+    var element = Projects()
+    ReactDOM.render(
+      element,
+      document.getElementById("main")
+    )
   }
-
   function mainPage() {
     const elementMain = (
       <div className="home_page">
-          <article className="my_name_area">
-            <h1 className="my_name">Jeremy Ward</h1>
-                <marquee className="my_descriptions_right" direction="right">Developer                       Logic Coding                       Data Management </marquee>
-          </article>
-          <div className="intro_area" id="IntroArea" onClick={projectCollapse}>
-              <p className="intro_text" id="introText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <Timer start={Date.now()} />
+        <article className="my_name_area">
+          <h1 className="my_name">Jeremy Ward</h1>
+        </article>
+        <div className="intro_area" id="IntroArea" style={{display: "inline-block"}}>
+          <p className="intro_text" id="introText">I began learning web development at The Iron Yard in late November of 2016.  I've been writing code most of my life but HTML, CSS, and JavaScript was new to me.  This site illustrates the progress of my learning through the 12 week boot camp at The Iron Yard, as well as post graduation projects and development of my skills.  These four projects chronicle my learning through the weeks from beginning to present.  I have plans to improve and further develop everything seen here, as well as beginning new projects to learn new methods of coding.</p>
+        <button className="projects_button" href="#" onClick={projects}>Projects</button>
+        </div>
+        <Timer start={Date.now()} />
       </div>
     )
     ReactDOM.render(
@@ -35,15 +31,4 @@ export function Home(){
     )
   }
   mainPage()
-
-
-
-
 }
-
-
-// <Projects/>
-
-
-
-//<p className="intro_text" id="introText">I bring a long history of writing functional code to the world of web development and styling.  I focus on writing code which<span className="intro_text_italics">performs</span>, as well as looking good. </p>
