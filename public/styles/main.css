@@ -1627,7 +1627,7 @@ and (max-device-width : 480px) {
     height: 90em;
     margin-left: 0;
     margin-top: 5em;
-    width: 45em;
+    width: 42em;
   }
 
   /*.fade{
@@ -1639,8 +1639,8 @@ and (max-device-width : 480px) {
   }*/
 
   .slide_button_area{
-    top: 80em;
-    left: 12em;
+    top: 85em;
+    left: 10em;
     margin-left: 0em;
     width: 20em;
   }
@@ -1672,16 +1672,16 @@ and (max-device-width : 480px) {
 
   .tictactoe_app_button{
     font-size: 1em;
-    width: 7em;
+    width: 6em;
   }
 
   .tictactoe_code_button{
     font-size: 1em;
-    width: 7em;
+    width: 6em;
   }
 
   .project_image{
-    margin-left: 20%;
+    margin-left: 8%;
   }
 
   .spurs_blog_title{
@@ -1696,29 +1696,33 @@ and (max-device-width : 480px) {
   .spursblog_app_button{
     font-size: 1em;
     margin-left: 5%;
+    width: 6em;
   }
 
   .spursblog_code_button{
     font-size: 1em;
+    width: 6em;
   }
 
   .dollartrak_description{
     font-size: 2em;
     margin-left: 2em;
-    width: 80%;
+    width: 85%;
   }
 
   .play_dollartrak_movie{
-    margin-left: 9%;
+    margin-left: 3%;
   }
 
   .dollartrak_video{
-    margin-left: 30%;
+    margin-left: 18%;
   }
 
   .dollartrak_code_button{
-    margin-left: 38%;
+    height: auto;
     font-size: 1em;
+    margin-left: 34%;
+    margin-top: 2em;
   }
 
   .sudoku_title{
@@ -1727,22 +1731,26 @@ and (max-device-width : 480px) {
 
   .cube{
     margin-top: 1em;
-    margin-left: 13em;
+    margin-left: 4em;
   }
 
   .sudoku_description{
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left: 3em;
-    margin-top: 8em;
+    margin-top: 10em;
     width: 80%;
   }
 
   .sudoku_app_button{
-    font-size: 1em;
+    font-size: 1.5em;
+    height: auto;
+    width: 6em;
   }
 
   .sudoku_code_button{
-    font-size: 1em;
+    font-size: 1.5em;
+    height: auto;
+    width: 6em;
   }
 
   .posts_section{
