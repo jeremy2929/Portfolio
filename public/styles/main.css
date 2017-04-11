@@ -258,6 +258,7 @@
   opacity: .9;
   text-align: center;
   margin-top: 4.2em;
+  padding: 1em;
   width: 40em;
   /*-webkit-perspective-origin: 25% 75%;*/
 }
@@ -699,7 +700,7 @@
 .intro_text{
   font: arial;
   display: inline-block;
-  font-size: 1.3em;
+  font-size: 1.1em;
   margin: 0;
   padding: 1em;
   text-indent: 1em;

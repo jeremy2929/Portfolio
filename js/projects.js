@@ -138,7 +138,7 @@ export function Projects() {
         </div>
         <aside className="sudoku_description">
           <p className="sudoku_text">
-            Post graduation:  This app allows you to enter a Sudoku puzzle and then click Solve button to have the app solve the puzzle.  It will display an error message if a bad puzzle has been entered.  To enter a puzzle, click on each box and type in the number.  The method used to solve is methodical brute force.
+            Post graduation:  Another student and I tackled this project to refine our skills regarding using a project manager to define our tasks needed to obtain MVP, to practice using GitHub more efficiently by creating branches of new development and then merging them into the master code, and to create separate modules for different parts of the code required to create the app.
           </p>
           <button className="sudoku_app_button" onClick={sudokuApp}>Run App</button>
           <button className="sudoku_code_button"onClick={sudokuCode}>View Code</button>
