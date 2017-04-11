@@ -6,6 +6,10 @@ import {Bio} from './aboutMe'
 import {Photos} from './photos'
 import {Posts} from './posts'
 
+
+// <a className="github_icon" href="#" onClick={onClickGitHub}>
+//   <i className="fa fa-github github_button" aria-hidden="true"> GitHub</i>
+// </a>
 function onClickGitHub() {
   window.open("https://github.com/jeremy2929", '_blank')
 }
@@ -75,9 +79,7 @@ function render() {
             <a className="navButton" href="#" onClick={postsLink}>Posts</a>
             <a className="navButton" href="#" onClick={photosLink}>Photos</a>
             <a className="navButton" href="#" onClick={bioLink}>AboutMe</a>
-            <a className="github_icon" href="#" onClick={onClickGitHub}>
-              <i className="fa fa-github github_button" aria-hidden="true"> GitHub</i>
-            </a>
+            <a className="navButton" href="#" onClick={onClickGitHub}>GitHub</a>
           </section>
       </nav>
     </header>
