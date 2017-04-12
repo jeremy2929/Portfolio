@@ -1533,12 +1533,10 @@ and (max-device-width : 480px) {
   .bodyPage{
     width: 100%;
     background-image: none;
-
   }
 
   .myInfoBox{
     margin-left: 20em;
-
   }
 
   .myImage{
@@ -1579,8 +1577,11 @@ and (max-device-width : 480px) {
   }
 
   .my_name_area{
+    display: block;
+    margin: 0 auto;
     margin-top: 12em;
-    margin-left: 16%;
+
+    /*margin-left: 16%;*/
   }
 
   .intro_area{
@@ -1592,18 +1593,21 @@ and (max-device-width : 480px) {
   }
 
   .projects_button{
+    display: block;
     font-size: 1.5em;
-    margin-left: 40%;
+    margin: 0 auto;
     margin-bottom: 1em;
   }
 
   .skills_area{
-    margin-left: 17em;
+    display: block;
+    margin: 0 auto;
     margin-top: 3em;
+    padding: 1.5em;
+    width: 25em;
   }
 
   .project_area{
-    /*font-size: 2em;*/
     height: 90em;
     margin-left: 0;
     margin-top: 5em;
