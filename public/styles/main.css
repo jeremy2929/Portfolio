@@ -1489,8 +1489,6 @@ and (max-device-width : 480px) {
     display: block;
     margin: 0 auto;
     margin-top: 12em;
-
-    /*margin-left: 16%;*/
   }
 
   .intro_area{
@@ -1671,10 +1669,17 @@ and (max-device-width : 480px) {
   }
 
   .posts_section{
+    height: auto;
     margin-top: 10em;
     margin-left: 1em;
-    height: auto;
+    padding-bottom: 10em;
     width: 95%;
+  }
+
+  .postsTextTitle{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .postsText{
