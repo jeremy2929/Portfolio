@@ -1718,11 +1718,12 @@ and (max-device-width : 480px) {
   .theIronYardTitle{
     display: block;
     margin: 0 auto;
+    text-align: center;
   }
 
   .caption1{
-    margin-left: 20%;
-
+    display: block;
+    margin: 0 auto;
   }
 
 
