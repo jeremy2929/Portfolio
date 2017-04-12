@@ -490,37 +490,6 @@
 
 }*/
 
-#logo h1 {
-	font-size: 4em;
-	margin:0 ;
-	font-family: 'Changa One', sans-serif;
-	font-weight: normal;
-	color: black;
-}
-
-#logo h1 {
-	font-size: 1.5em;
-	margin: 0 0 0 75px;
-	color: black;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-variant: small-caps;
-
-
-    -webkit-animation: text-fall 3s 2.5s ease-in-out both;
-    -moz-animation: text-fall 3s 2.5s ease-in-out both;
-    -ms-animation: text-fall 3s 2.5s ease-in-out both;
-    -o-animation: text-fall 3s 2.5s ease-in-out both;
-    animation: text-fall 3s 2.5s ease-in-out both;
-
-	-webkit-transform-origin:0 50%;
-	-moz-transform-origin: 0 50%;
-	-ms-transform-origin: 0 50%;
-	-o-transform-origin: 0 50%;
-	transform-origin: 0 50%;
-}
-
-
 
 @-webkit-keyframes text-fall {
      0% {
@@ -1585,7 +1554,7 @@ and (max-device-width : 480px) {
   }
 
   .navBar{
-    height: 9em;
+    height: 9.5em;
   }
 
   .navTopRight{
@@ -1596,12 +1565,12 @@ and (max-device-width : 480px) {
   }
 
   .navButton{
-    font-size: 2em;
+    font-size: 3em;
     height: 1em;
-    margin-right: 2em;
+    margin-right: .3em;
     margin-top: 0em;
     text-align: center;
-    width: 4em;
+    width: auto;
   }
 
   .my_name_area{
@@ -1660,17 +1629,19 @@ and (max-device-width : 480px) {
 
   .slide_button_left{
     font-size: 2em;
+    height: 2em;
     margin-left: 0em;
   }
 
   .slide_button_right{
     font-size: 2em;
+    height: 2em;
     margin-left: 0em;
   }
 
   .tictactoe_title{
     margin-left: 4em;
-    margin-top: 1em;
+    margin-top: 2em;
     width: 10em;
   }
 
@@ -1705,6 +1676,7 @@ and (max-device-width : 480px) {
 
   .spurs_blog_description{
     font-size: 2em;
+    margin-left: 3em;
     width: 80%;
   }
 
@@ -1727,26 +1699,32 @@ and (max-device-width : 480px) {
   .dollartrak_description{
     font-size: 2em;
     margin-left: 2em;
+    margin-top: 0em;
     width: 85%;
   }
 
   .play_dollartrak_movie{
-    margin-left: 3%;
+    float: left;
+    margin-left: 0em;
   }
 
   .dollartrak_video{
-    margin-left: 7em;
+    display: inline-block;
+    margin-left: 1em;
+    height: 9em;
+    width: 12em;
   }
 
   .dollartrak_code_button{
+    display: inline-block;
     height: auto;
     font-size: 1em;
-    margin-left: 9.5em;
-    margin-top: 2em;
+    margin-left: 3em;
+    margin-top: 4em;
   }
 
   .sudoku_title{
-    margin-top: 1em;
+    margin-top: 2em;
   }
 
   .cube{
@@ -1755,21 +1733,21 @@ and (max-device-width : 480px) {
   }
 
   .sudoku_description{
-    font-size: 1.5em;
+    font-size: 2em;
     margin-left: 3em;
-    margin-top: 10em;
+    margin-top: 8em;
     width: 80%;
   }
 
   .sudoku_app_button{
-    font-size: 1.5em;
+    font-size: 1em;
     height: auto;
     margin-left: 4em;
     width: 6em;
   }
 
   .sudoku_code_button{
-    font-size: 1.5em;
+    font-size: 1em;
     height: auto;
     width: 6em;
   }
