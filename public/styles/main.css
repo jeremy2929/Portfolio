@@ -1629,18 +1629,18 @@ and (max-device-width : 480px) {
   }
 
   .project_area{
-    font-size: 2em;
+    /*font-size: 2em;*/
     height: 90em;
     margin-left: 0;
     margin-top: 5em;
-    width: 43em;;
+    width: 100%;
   }
-
+/*
   .fade {
     height: 90em;
     width: 43em;
   }
-
+*/
 
 
   /*.fade{
@@ -1653,7 +1653,7 @@ and (max-device-width : 480px) {
 
   .slide_button_area{
     top: 85em;
-    left: 12em;
+    left: 20em;
     margin-left: 0em;
     width: 20em;
   }
@@ -1669,7 +1669,7 @@ and (max-device-width : 480px) {
   }
 
   .tictactoe_title{
-    margin-left: 2em;
+    margin-left: 4em;
     margin-top: 1em;
     width: 10em;
   }
@@ -1680,11 +1680,12 @@ and (max-device-width : 480px) {
   }
 
   .tictactoe_image{
-    margin-left: 20%;
+    margin-left: 15em;
   }
 
   .tictactoe_app_button{
     font-size: 1em;
+    margin-left: 4.5em;
     width: 6em;
   }
 
@@ -1694,11 +1695,12 @@ and (max-device-width : 480px) {
   }
 
   .project_image{
-    margin-left: 8%;
+    margin-left: 10em;
   }
 
   .spurs_blog_title{
     margin-top: 2em;
+    margin-left: 2.3em;
   }
 
   .spurs_blog_description{
@@ -1708,13 +1710,18 @@ and (max-device-width : 480px) {
 
   .spursblog_app_button{
     font-size: 1em;
-    margin-left: 5%;
+    margin-left: 5em;
     width: 6em;
   }
 
   .spursblog_code_button{
     font-size: 1em;
-    width: 6em;
+      width: 6em;
+  }
+
+  .dollartrak_title{
+    margin-top: 2em;
+
   }
 
   .dollartrak_description{
@@ -1728,13 +1735,13 @@ and (max-device-width : 480px) {
   }
 
   .dollartrak_video{
-    margin-left: 18%;
+    margin-left: 7em;
   }
 
   .dollartrak_code_button{
     height: auto;
     font-size: 1em;
-    margin-left: 34%;
+    margin-left: 9.5em;
     margin-top: 2em;
   }
 
@@ -1744,7 +1751,7 @@ and (max-device-width : 480px) {
 
   .cube{
     margin-top: 1em;
-    margin-left: 4em;
+    margin-left: 14em;
   }
 
   .sudoku_description{
@@ -1757,6 +1764,7 @@ and (max-device-width : 480px) {
   .sudoku_app_button{
     font-size: 1.5em;
     height: auto;
+    margin-left: 4em;
     width: 6em;
   }
 
