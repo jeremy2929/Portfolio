@@ -72,7 +72,7 @@ export function Projects() {
           </p>
           <div className="tictactoe_buttons">
             <button className="tictactoe_app_button" onClick={tictactoeApp}>Run App</button>
-            <button className="tictactoe_code_button"onClick={tictactoeCode}>View Code</button>
+            <button className="tictactoe_code_button" onClick={tictactoeCode}>View Code</button>
           </div>
         </aside>
       <article className="slide_button_area">

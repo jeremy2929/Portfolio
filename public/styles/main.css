@@ -1300,8 +1300,6 @@
   background-color: grey;
   font-size: 1em;
   font-family: 'Raleway', sans-serif, bold;
-  /*height: auto;*/
-  /*margin-left: 50em;*/
   margin-left: 1em;
   padding: 0;
   width: 5em;
@@ -1311,8 +1309,6 @@
   background-color: grey;
   font-size: 1em;
   font-family: 'Raleway', sans-serif, bold;
-  /*height: auto;*/
-  /*margin-left: 50em;*/
   margin-left: 1em;
   padding: 0;
   width: 5em;
@@ -1331,9 +1327,6 @@
 .slide{
     position: absolute;
     left: 78em;
-    /*width: 100px;
-    height: 100px;*/
-    /*background: blue;*/
     -webkit-animation: slide .5s forwards;
     animation: slide .9s forwards;
     width: 105%;
@@ -1355,18 +1348,6 @@
   from {opacity: 0}
   to {opacity: 1}
 }
-
-/*.fade_out {
-  -webkit-animation-name: fade_out;
-  -webkit-animation-duration: 3s;
-  animation-name: fade_out;
-  animation-duration: 3s;
-}
-
-@keyframes fade_out {
-  from {opacity: 1}
-  to {opacity: 0}
-}*/
 
 .photos{
   border: solid 5px;
@@ -1718,12 +1699,14 @@ and (max-device-width : 480px) {
   .theIronYardTitle{
     display: block;
     margin: 0 auto;
+    margin-top: 2em;
     text-align: center;
   }
 
   .caption1{
     display: block;
     margin: 0 auto;
+    text-align: center;
   }
 
 
