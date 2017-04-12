@@ -848,8 +848,6 @@
   width: 20em;
   vertical-align: top;
   margin-top: 3em;
-
-
 }
 
 /*.cube-wrap.vertical .cube {
@@ -1087,7 +1085,7 @@
   margin-top: 3em;
 }
 
-.spurs_blog_title{
+.spursblog_title{
   color: darkslategrey;
   font-family: 'Raleway', sans-serif, bold;
   font-size: 3em;
@@ -1105,7 +1103,7 @@
   width: 20em;
 }
 
-.spurs_blog_text{
+.spursblog_text{
   font-size: 1em;
   font-family: 'Poppins', sans-serif;
   text-indent: 1em;
@@ -1462,17 +1460,17 @@ and (max-device-width : 480px) {
 
   .navBar{
     height: 9.5em;
-  }
-
-  .navTopRight{
-    /*display: inline-flex;*/
-    float: left;
-    height: 4em;
     width: 100%;
   }
 
+  .navTopRight{
+    height: 4em;
+    margin-left: 10em;
+    width: 99%;
+  }
+
   .navButton{
-    font-size: 3em;
+    font-size: 2.8em;
     height: 1em;
     margin-right: .3em;
     margin-top: 0em;
@@ -1556,23 +1554,35 @@ and (max-device-width : 480px) {
   }
 
   .tictactoe_title{
-    margin-left: 4em;
+    display: block;
+    /*margin-left: 4em;*/
+    margin: 0 auto;
     margin-top: 2em;
     width: 10em;
   }
 
-  .tictactoe_description{
-    font-size: 2em;
-    width: 80%;
+  .tictactoe_image{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
   }
 
-  .tictactoe_image{
-    margin-left: 15em;
+  .tictactoe_description{
+    font-size: 2em;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+  }
+
+  .tictactoe_buttons{
+    display: block;
+    height: 7em;
+    margin: 0 auto;
+    width: 15em;
   }
 
   .tictactoe_app_button{
     font-size: 1em;
-    margin-left: 4.5em;
     width: 6em;
   }
 
@@ -1585,20 +1595,28 @@ and (max-device-width : 480px) {
     margin-left: 10em;
   }
 
-  .spurs_blog_title{
-    margin-top: 2em;
-    margin-left: 2.3em;
+  .spursblog_title{
+    display: block;
+    font-size: 3em;
+    margin: 0 auto;
+    margin-top: 5em;
   }
 
   .spurs_blog_description{
     font-size: 2em;
-    margin-left: 3em;
-    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .spursblog_buttons{
+    display: block;
+    height: 7em;
+    margin: 0 auto;
+    width: 15em;
   }
 
   .spursblog_app_button{
     font-size: 1em;
-    margin-left: 5em;
     width: 6em;
   }
 
@@ -1608,13 +1626,15 @@ and (max-device-width : 480px) {
   }
 
   .dollartrak_title{
+    display: block;
+    margin: 0 auto;
     margin-top: 2em;
-
   }
 
   .dollartrak_description{
     font-size: 2em;
-    margin-left: 2em;
+    display: block;
+    margin: 0 auto;
     margin-top: 0em;
     width: 85%;
   }
@@ -1640,12 +1660,16 @@ and (max-device-width : 480px) {
   }
 
   .sudoku_title{
+    display: block;
+    margin: 0 auto;
     margin-top: 2em;
   }
 
-  .cube{
-    margin-top: 1em;
-    margin-left: 14em;
+  .wrap{
+    display: block;
+    margin: 0 auto;
+    width: 40em;
+    margin-top: 6em;
   }
 
   .sudoku_description{
@@ -1678,12 +1702,13 @@ and (max-device-width : 480px) {
 
   .postsTextTitle{
     display: block;
+    font-size: 3em;
     margin: 0 auto;
     text-align: center;
   }
 
   .postsText{
-    height: 2em;
+    font-size: 2em;
   }
 
   .photosPage{
@@ -1691,7 +1716,8 @@ and (max-device-width : 480px) {
   }
 
   .theIronYardTitle{
-    margin-left: 18%;
+    display: block;
+    margin: 0 auto;
   }
 
   .caption1{

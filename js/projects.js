@@ -70,8 +70,10 @@ export function Projects() {
           <p className="tictactoe_text">
           Week 4: A functional Tic-Tac-Toe game in vanilla javascript for which I developed the logic myself.
           </p>
-          <button className="tictactoe_app_button" onClick={tictactoeApp}>Run App</button>
-          <button className="tictactoe_code_button"onClick={tictactoeCode}>View Code</button>
+          <div className="tictactoe_buttons">
+            <button className="tictactoe_app_button" onClick={tictactoeApp}>Run App</button>
+            <button className="tictactoe_code_button"onClick={tictactoeCode}>View Code</button>
+          </div>
         </aside>
       <article className="slide_button_area">
         <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>
@@ -81,14 +83,16 @@ export function Projects() {
     </div>
     <div className="project_area">
       <section className="fade">
-      <h1 className="spurs_blog_title">Spurs Blog Team Project</h1>
+      <h1 className="spursblog_title">Spurs Blog Team Project</h1>
       <img className="project_image" src="styles/SpursBlog.jpg" />
         <aside className="spurs_blog_description">
-          <p className="spurs_blog_text">
+          <p className="spursblog_text">
             Week 6: A four member team project on a given school assignment - All about the Spurs blog site.
           </p>
-          <button className="spursblog_app_button" onClick={spursblogApp}>Run App</button>
-          <button className="spursblog_code_button"onClick={spursblogCode}>View Code</button>
+          <div className="spursblog_buttons">
+            <button className="spursblog_app_button" onClick={spursblogApp}>Run App</button>
+            <button className="spursblog_code_button"onClick={spursblogCode}>View Code</button>
+          </div>
         </aside>
       <article className="slide_button_area">
         <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>

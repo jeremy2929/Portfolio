@@ -17,8 +17,6 @@ export function Posts() {
         <br/>
         <li className="postsText">Voluntary change usually only occurs when the pain of remaining the same exceeds the fear of change.</li>
         <br/>
-        <li className="postsText">The secret to happiness is something to do, something to hope for, and something to love.</li>
-        <br/>
         <li className="postsText">If one advances confidently in the direction of his dreams, and endeavors to live the life which he has imagined, he will meet with a success unexpected in common hours.</li>
         <br/>
         <li className="postsText">Willful ignorance is a liberty, but coupled with a strong opinion, it's a mistake.</li>
@@ -32,8 +30,10 @@ export function Posts() {
         <li className="postsText">The easiest way isn't usually the cheapest way, the cheapest way isn't usually the best way, and the best way usually isn't the easiest way.</li>
         <br/>
         <li className="postsText">If a man is called to be a street sweeper, he should sweep streets even as a Michaelangelo painted, or Beethoven composed music or Shakespeare wrote poetry. He should sweep streets so well that all the hosts of heaven and earth will pause to say, 'Here lived a great street sweeper who did his job well.'</li>
+        <br/>
+        <li className="postsText">The secret to happiness is something to do, something to hope for, and something to love.</li>
       </ol>
-      <button className="topButton" onClick={scrollUp}>Top of Page</button>
+    <button className="topButton" onClick={scrollUp}>Top of Page</button>
    </section>
   )
   return element
