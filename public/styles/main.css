@@ -253,7 +253,7 @@
   /*border-left: #222222 10px solid;*/
   /*border-bottom: #222222 10px solid;*/
   /*display: inline-block;*/
-  height: 10em;
+  height: auto;
   margin: 0 auto;
   opacity: .9;
   text-align: center;
@@ -1573,6 +1573,11 @@ and (max-device-width : 480px) {
     width: auto;
   }
 
+  .github_icon{
+    font-size: 2.8em;
+    margin-top: .1em;
+  }
+
   .my_name_area{
     margin-top: 12em;
     margin-left: 16%;
@@ -1582,7 +1587,7 @@ and (max-device-width : 480px) {
     font-size: 2em;
     height: auto;
     margin-left: 0%;
-    margin-top: 2em;
+    margin-top: 1em;
     width: 100%;
   }
 
@@ -1593,8 +1598,8 @@ and (max-device-width : 480px) {
   }
 
   .skills_area{
-    margin-left: 30%;
-    margin-top: 5em;
+    margin-left: 17em;
+    margin-top: 3em;
   }
 
   .project_area{
@@ -1754,6 +1759,7 @@ and (max-device-width : 480px) {
 
   .posts_section{
     margin-top: 10em;
+    margin-left: 1em;
     height: auto;
     width: 95%;
   }
@@ -1770,6 +1776,8 @@ and (max-device-width : 480px) {
     margin-left: 20%;
 
   }
+
+
   /*.bio_Text{
     font-size: 2em;
     margin-left: 0em;
