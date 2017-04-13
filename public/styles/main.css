@@ -1399,12 +1399,21 @@
 
 .bio_Text{
   color: black;
+  font-family: 'Forum', serif;
   font-size: 1.2em;
   margin-top: 0;
   margin-bottom: .2;
   padding: .8em;
   text-indent: 1em;
   width: auto;
+}
+
+.bio_image{
+  display: none;
+}
+
+.bio_star{
+  display: none;
 }
 
 @media only screen
@@ -1709,13 +1718,44 @@ and (max-device-width : 480px) {
     text-align: center;
   }
 
+  .bio_Section{
+    /*background-image: url("/styles/tx.jpg");*/
+    background-image: none;
+    background-color: sandybrown;
+    border: black solid 5px;
+    /*border-radius: 10px;*/
+    height: 90em;
+    margin-left: 7%;
+    margin-top: 20em;
+    padding: 5em;
+    width: 82%;
+  }
 
-  /*.bio_Text{
+  .bio_Background{
+    background-color: lightgrey;
+
+  }
+  .bio_Text{
+    font-family: 'Forum', serif;
     font-size: 2em;
     margin-left: 0em;
     width: 100%;
   }
 
+  .bio_image{
+    display: inline-block;
+    height: 25em;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .bio_star{
+    display: inline-block;
+    height: 20em;
+    margin-bottom: 0;
+    width: 100%;
+  }
+/*
   .bio_Background{
     height: 40em;
     margin-top: 10em;
