@@ -109,7 +109,7 @@ export function Projects() {
            Week 13: A Budget App using React- full of functionality, storing data externally into Firebase, which I plan to re-factor into a more organized version with improved styling.
          </p>
          <h2 className="play_dollartrak_movie">Watch Demo of DollarTrak here:</h2>
-         <video className="dollartrak_video" src="styles/movie6.mov" controls="controls">
+         <video className="dollartrak_video" src="styles/dollartrak.mov" controls="controls">
          </video>
          <button className="dollartrak_code_button"onClick={dollartrakCode}>View Code</button>
        </aside>
@@ -126,16 +126,16 @@ export function Projects() {
            <div className="cube">
              <div className="top"></div>
              <div className="front">
-               <img className="sudokuImageCube" src="styles/sudoku_solved.jpg"/>
+               <img className="sudoku_image_cube" src="styles/sudoku_solved.jpg"/>
              </div>
              <div className="back">
-               <img className="sudokuImageCube" src="styles/sudoku_solved.jpg"/>
+               <img className="sudoku_image_cube" src="styles/sudoku_solved.jpg"/>
              </div>
               <div className="right">
-               <img className="sudokuImageCube" src="styles/sudoku_puzzle.jpg"/>
+               <img className="sudoku_image_cube" src="styles/sudoku_puzzle.jpg"/>
              </div>
              <div className="left">
-               <img className="sudokuImageCube" src="styles/sudoku_puzzle.jpg"/>
+               <img className="sudoku_image_cube" src="styles/sudoku_puzzle.jpg"/>
              </div>
              <div className="bottom"></div>
           </div>
