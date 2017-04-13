@@ -1737,7 +1737,7 @@ and (max-device-width : 480px) {
   }
   .bio_Text{
     font-family: 'Forum', serif;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-left: 0em;
     width: 100%;
   }
