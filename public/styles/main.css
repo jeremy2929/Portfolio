@@ -974,20 +974,7 @@ and (max-device-width : 480px) {
 
   .skills_text {
     margin-top: 0.6em;
-
-    /*padding: 1.5em;*/
-    /*color: black;
-    float: inherit;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 5em;
-    height: 1em;
-    margin: 0 auto;
-    margin-top: .8em;
-    opacity: 1;
-    text-align: center;
-    width: 100%;*/
   }
-
 
   .project_area {
     height: 90em;
