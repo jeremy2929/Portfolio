@@ -92,17 +92,6 @@
     margin-top: 1%;
 }
 
-.homeButton {
-  color: black;
-  font-size: 16px;
-  font-family: 'Source Sans Pro', sans-serif;
-  height: auto;
-  margin-right: .3em;
-  margin-top: 1.8em;
-  padding: 4px;
-  text-decoration: none;
-}
-
 .github_icon {
   color: black;
   font-family: 'Source Sans Pro', sans-serif;
@@ -126,17 +115,6 @@
   height: auto;
   margin-right: .3em;
   margin-top: 1.7em;
-  padding: 4px;
-  text-decoration: none;
-}
-
-.aboutMe {
-  color: black;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  height: auto;
-  margin-right: .3em;
-  margin-top: 1.8em;
   padding: 4px;
   text-decoration: none;
 }
