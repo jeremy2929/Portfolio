@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -1181,8 +1180,8 @@ and (max-device-width : 480px) {
     background-color: sandybrown;
     border: black solid 5px;
     height: 90em;
-    margin-left: 7%;
-    margin-top: 10em;
+    margin: 0 auto;
+    margin-top: 11em;
     padding: 5em;
     width: 82%;
   }
