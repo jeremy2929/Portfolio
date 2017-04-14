@@ -2,9 +2,11 @@
   box-sizing: border-box;
 }
 
-.bodyPage {
-  background-image: url("/styles/desk.jpg");
-  height: 20em;
+.body_page {
+  background-image: url("/styles/desk1.jpg");
+  /*height: 20em;*/
+  height: 800px;
+  width: 1280px;
 }
 
 .main_page {
@@ -713,12 +715,13 @@
 
 .the_iron_yard_title {
   color: white;
-  display: inline-block;
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 3em;
   font-weight: normal;
-  margin-left: 22%;
   margin-top: 2em;
-  white-space: pre;
+  margin-bottom: .1em;
+  text-align: center;
 }
 
 .the_iron_yard {
@@ -746,11 +749,11 @@
 
 .caption {
   color: white;
-  display: inline-block;
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 2em;
-  margin-top: 2%;
-  margin-left: 8em;
-  margin-bottom: 0;
+  margin-bottom: .1em;
+  text-align: center;
 }
 
 .photos_page {
