@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from 'react-dom'
+import {render} from 'react-dom'
 import {Link} from 'react-router'
 import ReactDom from 'react-dom';
 
@@ -21,7 +21,6 @@ function spursblogApp(){
 
 function spursblogCode(){
   window.open("https://github.com/jeremy2929/SpursBlog", '_blank')
-
 }
 
 function tictactoeApp(){

@@ -6,8 +6,6 @@ import {Bio} from './aboutMe'
 import {Photos} from './photos'
 import {Posts} from './posts'
 
-
-
 function onClickGitHub() {
   window.open("https://github.com/jeremy2929", '_blank')
 }

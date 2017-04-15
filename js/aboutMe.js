@@ -1,7 +1,4 @@
 import React from 'react'
-  // <iframe src="https://docs.google.com/viewer?srcid=1Xue_sTz8X8_VUg3kLlRrcy5Qhe7tBb3moFBZhDA7g5o&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="580px" height="480px"></iframe>
-  // <img className="bio_star" src="/styles/texas-star.jpg"/>
-//  <img className="bio_image" src="/styles/tx.jpg"/>
 
 export function Bio(){
   var element = (

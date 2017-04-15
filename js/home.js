@@ -3,7 +3,6 @@ import {Projects} from './projects'
 import ReactDOM from 'react-dom'
 import Timer from './timer'
 
-// <marquee className="my_descriptions_right" direction="right">Developer                       Logic Coding                       Data Management </marquee>
 export function Home(){
   function projects(){
     var element = Projects()

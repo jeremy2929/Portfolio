@@ -4,9 +4,7 @@
 
 .body_page {
   background-image: url("/styles/desk1.jpg");
-  /*height: 20em;*/
-  height: 800px;
-  width: 1280px;
+  height: 20em;
 }
 
 .main_page {
@@ -18,16 +16,16 @@
 }
 
 .nav_bar {
- background-color: snow;
- border-radius: 5px;
- box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
- color: #3F51B5;
- height: 4em;
- position: fixed;
- top: 0;
- left: 0;
- right: 0;
- z-index: 1;
+  background-color: snow;
+  border-radius: 5px;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: #3F51B5;
+  height: 4em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 .my_box {
@@ -50,10 +48,10 @@
 }
 
 @keyframes zoom {
-    from {height: 3.5em;
-          width: 3.3em;}
-    to {height: 8.5em;
-          width: 9em;}
+  from {height: 3.5em;
+        width: 3.3em;}
+  to {height: 8.5em;
+        width: 9em;}
 }
 
 /* The element to apply the animation to */
@@ -89,9 +87,9 @@
 }
 
 .nav_top_right {
-    display: inline-flex;
-    float: right;
-    margin-top: 1%;
+  display: inline-flex;
+  float: right;
+  margin-top: 1%;
 }
 
 .github_icon {
@@ -129,8 +127,8 @@
 }
 
 .home_area {
-    margin-top: 5em;
-    height 1em;
+  margin-top: 5em;
+  height 1em;
 }
 
 .my_name_area {
@@ -875,8 +873,8 @@
 }
 
 @media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
 
   .bodyPage {
     width: 100%;
@@ -1050,7 +1048,7 @@ and (max-device-width : 480px) {
 
   .spursblog_code_button {
     font-size: 1em;
-      width: 6em;
+    width: 6em;
   }
 
   .dollartrak_title {
