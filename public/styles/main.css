@@ -876,7 +876,7 @@
   and (min-device-width : 320px)
   and (max-device-width : 480px) {
 
-  .bodyPage {
+  .body_page {
     width: 100%;
     background-image: none;
   }
@@ -973,7 +973,6 @@
     float: left;
     font-size: 2em;
     height: 2em;
-    /*margin-left: 0em;*/
   }
 
   .slide_button_right {
@@ -1117,7 +1116,6 @@
   .sudoku_app_button {
     font-size: 1em;
     height: auto;
-    /*margin-right: 1em;*/
     width: 7em;
   }
 
