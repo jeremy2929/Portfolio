@@ -142,8 +142,10 @@ export function Projects() {
           <p className="sudoku_text">
             Post-graduation:  Another student and I tackled this project to refine our skills regarding using a project manager to define our tasks needed to obtain MVP, to practice using GitHub more efficiently by creating branches of new development and then merging them into the master code, and to create separate modules for different parts of the code required to create the app.
           </p>
-          <button className="sudoku_app_button" onClick={sudokuApp}>Run App</button>
-          <button className="sudoku_code_button"onClick={sudokuCode}>View Code</button>
+          <div className="sudoku_buttons">
+            <button className="sudoku_app_button" onClick={sudokuApp}>Run App</button>
+            <button className="sudoku_code_button"onClick={sudokuCode}>View Code</button>
+          </div>
         </aside>
         <article className="slide_button_area">
           <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>

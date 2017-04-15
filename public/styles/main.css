@@ -962,22 +962,25 @@
   }
 
   .slide_button_area {
-    top: 85em;
-    left: 20em;
-    margin-left: 0em;
-    width: 20em;
+    display: block;
+    top: 83em;
+    left: 1em;
+    margin: 0 auto;
+    width: 57em;
   }
 
   .slide_button_left {
+    float: left;
     font-size: 2em;
     height: 2em;
-    margin-left: 0em;
+    /*margin-left: 0em;*/
   }
 
   .slide_button_right {
+    float: right;
     font-size: 2em;
     height: 2em;
-    margin-left: 0em;
+    margin-left: 1em;
   }
 
   .tictactoe_title {
@@ -1105,17 +1108,24 @@
     width: 80%;
   }
 
+  .sudoku_buttons{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .sudoku_app_button {
     font-size: 1em;
     height: auto;
-    margin-left: 4em;
-    width: 6em;
+    /*margin-right: 1em;*/
+    width: 7em;
   }
 
   .sudoku_code_button {
     font-size: 1em;
     height: auto;
-    width: 6em;
+    margin-left: 1em;
+    width: 7em;
   }
 
   .posts_section {
