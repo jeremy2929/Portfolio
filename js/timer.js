@@ -38,7 +38,7 @@ export default React.createClass({
       return (
         <div className="skills_area">
             <h1 className="skills_text">{skills[counter]}</h1>
-      </div>
+        </div>
       )
     }
 })

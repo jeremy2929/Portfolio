@@ -46,7 +46,6 @@ function prevDivs() {
   }
   showDivs(slideIndex);
 }
-
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("project_area");
