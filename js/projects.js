@@ -74,16 +74,16 @@ export function Projects() {
             <button className="tictactoe_code_button" onClick={tictactoeCode}>View Code</button>
           </div>
         </aside>
-      <article className="slide_button_area">
-        <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>
-        <button className="slide_button_right" onClick={plusDivs}>NEXT &#8680;</button>
-      </article>
-    </section>
+        <article className="slide_button_area">
+          <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>
+          <button className="slide_button_right" onClick={plusDivs}>NEXT &#8680;</button>
+        </article>
+      </section>
     </div>
     <div className="project_area">
       <section className="fade">
-      <h1 className="spursblog_title">Spurs Blog Team Project</h1>
-      <img className="project_image" src="styles/SpursBlog.jpg" />
+        <h1 className="spursblog_title">Spurs Blog Team Project</h1>
+        <img className="project_image" src="styles/SpursBlog.jpg" />
         <aside className="spurs_blog_description">
           <p className="spursblog_text">
             Week 6: A four member team project on a given school assignment - All about the Spurs blog site.
@@ -93,11 +93,11 @@ export function Projects() {
             <button className="spursblog_code_button"onClick={spursblogCode}>View Code</button>
           </div>
         </aside>
-      <article className="slide_button_area">
-        <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>
-        <button className="slide_button_right" onClick={plusDivs}>NEXT &#8680;</button>
-      </article>
-    </section>
+        <article className="slide_button_area">
+          <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>
+          <button className="slide_button_right" onClick={plusDivs}>NEXT &#8680;</button>
+        </article>
+      </section>
     </div>
     <div className="project_area">
       <section className="fade">
@@ -108,8 +108,7 @@ export function Projects() {
            Week 13: A Budget App using React- full of functionality, storing data externally into Firebase, which I plan to re-factor into a more organized version with improved styling.
          </p>
          <h2 className="play_dollartrak_movie">Watch Demo of DollarTrak here:</h2>
-         <video className="dollartrak_video" src="styles/dollartrak.mov" controls="controls">
-         </video>
+         <video className="dollartrak_video" src="styles/dollartrak.mov" controls="controls"></video>
          <button className="dollartrak_code_button"onClick={dollartrakCode}>View Code</button>
        </aside>
        <article className="slide_button_area">
@@ -145,7 +144,7 @@ export function Projects() {
           </p>
           <button className="sudoku_app_button" onClick={sudokuApp}>Run App</button>
           <button className="sudoku_code_button"onClick={sudokuCode}>View Code</button>
-          </aside>
+        </aside>
         <article className="slide_button_area">
           <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>
           <button className="slide_button_right" onClick={plusDivs}>NEXT &#8680;</button>
