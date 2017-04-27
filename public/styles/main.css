@@ -1194,22 +1194,18 @@
 
   .bio_text {
     font-family: 'Forum', serif;
-    font-size: 2.5em;
+    font-size: 2.8em;
     margin-left: 0em;
     width: 100%;
   }
 
   .bio_image {
     display: inline-block;
+    background-color: green;
+    border: solid 2px;
     height: 25em;
     margin-bottom: 0;
     width: 100%;
   }
 
-  .bio_star {
-    display: inline-block;
-    height: 20em;
-    margin-bottom: 0;
-    width: 100%;
-  }
 }
