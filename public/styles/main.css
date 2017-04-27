@@ -4,7 +4,9 @@
 
 .body_page {
   background-image: url("/styles/desk1.jpg");
+  background-repeat: no-repeat;
   height: 20em;
+  width: 1250px;
 }
 
 .main_page {
@@ -877,18 +879,20 @@
   and (max-device-width : 1500px) {
     .body_page {
       background-image: url("/styles/desk_1440.jpg");
+      width: 1440px;
     }
 }
 
+@media only screen
+  and (max-device-width : 800px) {
+    .body_page {
+      background-image: none;
+    }
+  }
 
 @media only screen
   and (min-device-width : 320px)
   and (max-device-width : 480px) {
-
-  .body_page {
-    width: 100%;
-    background-image: none;
-  }
 
   .my_info_box {
     margin-left: 20em;
