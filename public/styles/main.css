@@ -873,6 +873,15 @@
 }
 
 @media only screen
+  and (min-device-width : 1281px)
+  and (max-device-width : 1500px) {
+    .body_page {
+      background-image: url("/styles/desk_1440.jpg");
+    }
+}
+
+
+@media only screen
   and (min-device-width : 320px)
   and (max-device-width : 480px) {
 
