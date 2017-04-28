@@ -6,7 +6,7 @@
   background-image: url("/styles/desk1.jpg");
   background-repeat: no-repeat;
   height: 20em;
-  width: 1250px;
+  width: 100%;
 }
 
 .main_page {
@@ -894,6 +894,11 @@
   and (min-device-width : 320px)
   and (max-device-width : 600px) {
 
+
+  .body_page {
+    width: 98%;
+  }
+
   .my_info_box {
     margin-left: 20em;
   }
@@ -922,17 +927,17 @@
 
   .nav_button {
     font-size: 3em;
-    height: auto;
-    margin-right: .3em;
+    /*height: auto;*/
+    margin-right: .1em;
     margin-top: 0em;
-    margin-left: .5em;
-    text-align: center;
+    /*margin-left: .1em;*/
+    /*text-align: center;*/
     width: auto;
   }
 
   .github_icon {
     font-size: 2.7em;
-    margin-left: .5em;
+    margin-left: .1em;
     margin-top: .1em;
   }
 
