@@ -14,11 +14,7 @@ export function Home(){
     )
   }
   function hideMessage (){
-    console.log("test");
       $('.popup_message').css('display','none')
-      // this.refs.contactMe.className="contactMe_page_hidden"
-
-      // this.refs.popupMessage.className="hidden"
   }
   function mainPage() {
     const elementMain = (
