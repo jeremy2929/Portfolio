@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+var createReactClass = require("create-react-class")
+
 
 var skills = ["","HTML","CSS","JavaScript","React","Node.js","NPM","Webpack","GitHub","Firebase"]
 var counter = 0
-export default React.createClass({
+export default createReactClass({
     getInitialState: function(){
         // This is called before our render function. The object that is
         // returned is assigned to this.state, so we can use it later.
