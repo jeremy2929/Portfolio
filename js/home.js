@@ -2,6 +2,8 @@ import React from 'react'
 import {Projects} from './projects'
 import ReactDOM from 'react-dom'
 import Timer from './timer'
+import $ from 'jquery'
+
 
 export function Home(){
   function projects(){
@@ -11,9 +13,19 @@ export function Home(){
       document.getElementById("main")
     )
   }
+  function hideMessage (){
+    console.log("test");
+      $('.popup_message').css('display','none')
+      // this.refs.contactMe.className="contactMe_page_hidden"
+
+      // this.refs.popupMessage.className="hidden"
+  }
   function mainPage() {
     const elementMain = (
       <div className="home_page">
+        <article className="popup_message">Note:  This site is styled primarily for Chrome until further development.  Any issues which may occur in browsers such as Edge will be resolved in future versions.
+          <button className="popup_button" onClick={hideMessage}>CLOSE</button>
+        </article>
         <article className="my_name_area">
           <h1 className="my_name">Jeremy Ward</h1>
         </article>
