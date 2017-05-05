@@ -3,8 +3,6 @@
 }
 
 .body_page {
-  background-image: url("/styles/desk1.jpg");
-  background-repeat: no-repeat;
   width: 100%;
 }
 
@@ -13,17 +11,18 @@
 }
 
 .popup_message{
-  background-color: white;
+  display: block;
+  background-color: lightgrey;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2em;
-  top: 100px;
-  left: 200px;
-  height: 15em;
+  height: 50%;
   text-indent: 1em;
   padding: 1em;
-  width: 30em;
-  z-index: 2;
+  margin-top: 10%;
+  margin-left: 10%;
+  z-index: 5;
   position: fixed;
+  width: 80%;
 }
 
 .popup_button{
@@ -35,7 +34,6 @@
     padding: .5em;
     height: 3em;
     width: 5em;
-
 }
 
 .hidden {
@@ -177,8 +175,8 @@
   opacity: .9;
   text-align: center;
   margin-top: 4.2em;
-  padding: 1em;
-  width: 40em;
+  /*padding: 1em;*/
+  width: 50%;
 }
 
 .my_name_area:hover {
@@ -212,15 +210,21 @@
   color: darkslategrey;
   font-size: 6em;
   font-family: 'Raleway', sans-serif, bold;
-  margin: 0 auto;
-  margin-bottom: 0;
   text-align: center;
   text-shadow: horizontal-offset vertical-offset blur color;
   text-shadow: 4px 6px 5px rgba(0,0,0,0.3);
   -webkit-perspective: 600;
+  width: auto;
+}
+
+.intro_skills_area{
+  display: inline-flex;
+  text-align: center;
+  width: 95%;
 }
 
 .skills_area {
+  /*border: solid 2px;*/
   box-shadow: 8px 10px 9px rgba(0,0,0,0.3);
   /* IE10+ */
   background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #8A9699 100%);
@@ -236,13 +240,9 @@
   background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #8A9699 100%);
   display: inline-block;
   height: 15em;
-  margin-left: 5em;
-  margin-right: 0;
-  margin-top: 11em;
   background-color: rgba(255,255,255,0.3);
   opacity: .8;
-  vertical-align: top;
-  width: 25em;
+  width: 30%;
 }
 
 .skills_area:hover {
@@ -259,13 +259,13 @@
   color: black;
   float: inherit;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 5em;
+  font-size: 4rem;
   height: 1em;
   margin: 0 auto;
   margin-top: .8em;
   opacity: 1;
   text-align: center;
-  width: 100%;
+  width: auto;
 }
 
 .descriptions_marquee {
@@ -300,6 +300,8 @@
 }
 
 .intro_area {
+  /*border: solid 2px;*/
+
   /* IE10+ */
   background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #8A9699 100%);
   /* Mozilla Firefox */
@@ -313,14 +315,15 @@
   /* W3C Markup */
   background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #8A9699 100%);
   box-shadow: 8px 10px 9px rgba(0,0,0,0.3);
-  display: inline-block;
+  /*display: inline-block;*/
   font-family: 'Poppins', sans-serif;
-  margin-top: 3em;
-  margin-left: 1em;
+  /*margin-top: 3em;*/
+  /*margin-left: 1em;*/
+  margin: 0;
   opacity: .9;
   position: relative;
   height: 20em;
-  width: 45em;
+  width: 70%;
 }
 
 .intro_area:hover {
@@ -363,7 +366,7 @@
   font-size: 1em;
   font-family: 'Raleway', sans-serif, bold;
   height: 2em;
-  margin-left: 20em;
+  text-align: center;
   padding: 0;
   width: 5em;
 }
@@ -890,7 +893,6 @@
   and (min-device-width : 1281px)
   and (max-device-width : 1500px) {
     .body_page {
-      background-image: url("/styles/desk_1440.jpg");
       width: 1440px;
     }
 }
@@ -906,6 +908,9 @@
   and (min-device-width : 320px)
   and (max-device-width : 600px) {
 
+  .popup_message{
+    display: none;
+  }
 
   .body_page {
     width: 98%;
@@ -939,11 +944,8 @@
 
   .nav_button {
     font-size: 3em;
-    /*height: auto;*/
     margin-right: .1em;
     margin-top: 0em;
-    /*margin-left: .1em;*/
-    /*text-align: center;*/
     width: auto;
   }
 
