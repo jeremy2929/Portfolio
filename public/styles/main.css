@@ -369,20 +369,7 @@
 }
 
 .project_area {
-  /* IE10+ */
-  background-image: -ms-radial-gradient(center, ellipse farthest-corner, #1e5799 0%, #081029 100%);
-  /* Mozilla Firefox */
-  background-image: -moz-radial-gradient(center, ellipse farthest-corner, #1e5799 0%, #081029 100%);
-  /* Opera */
-  background-image: -o-radial-gradient(center, ellipse farthest-corner, #1e5799 0%, #081029 100%);
-  /* Webkit (Safari/Chrome 10) */
-  background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(0, #1e5799), color-stop(100, #081029));
-  /* Webkit (Chrome 11+) */
-  background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #1e5799 0%, #081029 100%);
-  /* W3C Markup */
-  background-image: radial-gradient(ellipse farthest-corner at center, #1e5799 0%, #081029 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(100, #748FA6));
- /* Need position to allow stacking of pseudo-elements */
+  background-color: lightgrey;
   position: relative;
   padding: 30px;
   display: none;
