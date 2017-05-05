@@ -3,13 +3,14 @@
 }
 
 .body_page {
-  background-image: url("/styles/desk1.jpg");
-  background-repeat: no-repeat;
   width: 100%;
 }
 
-.main_page {
+.home_page {
+  /*background-image: url("/styles/desk1.jpg");*/
+  /*background-repeat: no-repeat;*/
   margin-top: 0;
+  width: 95%;
 }
 
 .popup_message{
