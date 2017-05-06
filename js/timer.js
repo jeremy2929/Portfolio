@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 var createReactClass = require("create-react-class")
 
 
-var skills = ["","HTML","CSS","JavaScript","React","Node.js","NPM","Webpack","GitHub","Firebase"]
+var skills = ["HTML","CSS","JavaScript","jQuery","React","Node.js","NPM","Webpack","GitHub","Firebase"]
 var counter = 0
 export default createReactClass({
     getInitialState: function(){
