@@ -4,6 +4,7 @@
 
 body{
   height: auto;
+  width: auto;
 }
 
 .body_page {
@@ -13,33 +14,6 @@ body{
 
 .home_page {
   margin-top: 0;
-  width: 95%;
-}
-
-.popup_message{
-  display: block;
-  background-color: lightgrey;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
-  height: 50%;
-  text-indent: 1em;
-  padding: 1em;
-  margin-top: 10%;
-  margin-left: 10%;
-  z-index: 5;
-  position: fixed;
-  width: 80%;
-}
-
-.popup_button{
-  display: block;
-  font-size: 1em;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0 auto;
-  margin-top: 2em;
-  padding: .5em;
-  height: 3em;
-  width: 5em;
 }
 
 .hidden {
@@ -47,6 +21,7 @@ body{
 }
 
 .nav_bar {
+  display: inline-flex;
   background-color: snow;
   border-radius: 5px;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
@@ -60,22 +35,19 @@ body{
 }
 
 .my_box {
+  display: inline-flex;
   text-decoration: none;
-}
-
-.my_info_box {
-  display: inline-block;
-  height: 8%;
   width: auto;
+  vertical-align: text-bottom;
 }
 
 .my_image {
   display: inline-block;
-  height: 3.5em;
-  margin-left: .3em;
-  margin-top: .2em;
+  height: 3em;
+  margin-left: 1%;
+  /*margin-top: .2em;*/
   box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
-  width: 3.3em;
+  width: auto;
 }
 
 @keyframes zoom {
@@ -98,29 +70,32 @@ body{
 }
 
 .name_info {
-  display: inline-block;
-  height: auto;
-  vertical-align: top;
-  width: 10em;
+  vertical-align: text-bottom;
+  /*height: auto;*/
+  margin: 0;
 }
 
 .my_contact_info {
+  display: block;
   color: black;
-  font-size: 15px;
-  font-family: serif;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: lighter;
-  margin: 0;
+  /*margin: 0;*/
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
   margin-left: 1em;
-  margin-right: 0;
-  margin-top: 1.8em;
-  vertical-align: top;
-  width: 8em;
+  vertical-align: text-bottom;
+
+  /*width: auto;*/
 }
 
 .nav_top_right {
-  display: inline-flex;
-  float: right;
-  margin-top: 1%;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  height: auto;
 }
 
 .github_icon {
@@ -181,7 +156,7 @@ body{
   margin-right: 25%;
   opacity: .9;
   margin-top: 5%;
-  width: 50%;
+  width: auto;
 }
 
 .my_name_area:hover {
@@ -877,12 +852,18 @@ body{
   }
 
 @media only screen
+  and (min-device-width : 601px)
+  and (max-device-width : 799px) {
+
+.body_page {
+}
+  .my_name {
+  }
+}
+
+@media only screen
   and (min-device-width : 320px)
   and (max-device-width : 600px) {
-
-  .popup_message{
-    display: none;
-  }
 
   .body_page {
     width: 98%;
