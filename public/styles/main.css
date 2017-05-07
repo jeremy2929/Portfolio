@@ -22,7 +22,7 @@ body{
 
 .nav_bar {
   display: inline-flex;
-  background-color: snow;
+  background: linear-gradient(lightgrey, white);
   border-radius: 5px;
   box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   color: #3F51B5;
@@ -69,21 +69,20 @@ body{
 }
 
 .name_info {
-  vertical-align: text-bottom;
+  list-style-type: none;
   margin: 0;
+  padding-top: 3%;
+  padding-left: 3%;
 }
 
 .my_contact_info {
-  display: block;
   color: black;
   font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: lighter;
-  margin-top: 0;
+  line-height: 1em;
   margin-bottom: 0;
-  padding: 0;
-  margin-left: 1em;
-  vertical-align: text-bottom;
+  margin: 0;
+  width: 15em;
 }
 
 .nav_top_right {
@@ -314,7 +313,7 @@ body{
 
 .project_area {
   background-color: lightgrey;
-   background: linear-gradient(white, dimgrey);
+  background: linear-gradient(white, dimgrey);
   position: relative;
   padding: 30px;
   display: none;
@@ -870,6 +869,7 @@ body{
 
   .my_image {
     height: 5em;
+    margin-bottom: 0;
     width: 7em;
   }
 

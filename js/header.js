@@ -61,10 +61,16 @@ function render() {
           <a href="#" onMouseEnter={hoverOnMyImage} onMouseLeave={hoverOffMyImage}>
             <img id ="myImage" className="my_image" src="/styles/jw.png"></img>
             </a>
-          <div className="name_info">
-            <h1 className = "my_contact_info">Cell: 210-459-6998</h1>
-            <a className = "my_contact_info" href="mailto:jeremy2929@twc.com" data-rel="external">jeremy2929@twc.com</a><br />
-          </div>
+          <div>
+            <ul className="name_info">
+              <li>
+                <p className = "my_contact_info">Cell: 210-459-6998</p>
+              </li>
+              <li>
+                <a className = "my_contact_info" href="mailto:jeremy2929@twc.com" data-rel="external">jeremy2929@twc.com</a><br />
+            </li>
+            </ul>
+        </div>
         </article>
         <section className="nav_top_right">
           <a className="nav_button" href="#" onClick={homeLink}>Home</a>
