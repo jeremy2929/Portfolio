@@ -2,14 +2,9 @@
   box-sizing: border-box;
 }
 
-body{
-  height: auto;
-  width: auto;
-}
-
 .body_page {
   background-color: darkslategrey;
-  width: 100%;
+  margin: 0;
 }
 
 .home_page {
@@ -263,7 +258,6 @@ body{
 }
 
 .skills_area {
-  /*border: solid 2px;*/
   display: inline-block;
   box-shadow: 8px 10px 9px rgba(0,0,0,0.3);
   /* IE10+ */
@@ -863,8 +857,8 @@ body{
     width: 98%;
   }
 
-  .my_info_box {
-    margin-left: 20em;
+  .my_box {
+    margin: 0 auto;
   }
 
   .my_image {
@@ -885,22 +879,36 @@ body{
   }
 
   .nav_top_right {
-    height: 4em;
+    display: inline-flex;
+    height: auto;
     margin-left: 10em;
     width: 99%;
   }
 
   .nav_button {
-    font-size: 2.9em;
-    margin-right: .1em;
-    margin-top: 0em;
+    color: black;
+    font-size: 2.6em;
+    line-height: 1.1em;
+    height: auto;
+    margin: 0;
+    margin-right: .8em;
+    margin-left: 0;
+    padding: 0;
     width: auto;
   }
 
-  .github_icon {
-    font-size: 2.7em;
-    margin-left: .1em;
-    margin-top: .1em;
+  .github_icon{
+    margin: 0;
+  }
+
+  .github_button{
+    color: black;
+    font-size: 2.5em;
+    margin: 0;
+    margin-right: .8em;
+    margin-left: 0;
+    margin-top: 0em;
+    width: auto;
   }
 
   .my_name_area {

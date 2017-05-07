@@ -78,8 +78,8 @@ function render() {
           <a className="nav_button" href="#" onClick={postsLink}>Posts</a>
           <a className="nav_button" href="#" onClick={photosLink}>Photos</a>
           <a className="nav_button" href="#" onClick={bioLink}>AboutMe</a>
-          <a className="github_icon" href="#" onClick={onClickGitHub}>
-            <i className="fa fa-github github_button" aria-hidden="true"> GitHub</i>
+          <a className="github_button" href="#" onClick={onClickGitHub}>
+            <i className="fa fa-github github_icon" aria-hidden="true"> GitHub</i>
           </a>
         </section>
       </nav>
