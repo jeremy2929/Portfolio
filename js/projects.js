@@ -92,12 +92,14 @@ export function Projects() {
     </div>
     <div className="project_area">
       <section className="fade">
-       <h1 className="dollartrak_title">DollarTrak Budget App</h1>
-       <img className="project_image" src="styles/DollarTrak.jpg" />
-       <aside className="dollartrak_description">
+        <h1 className="dollartrak_title">DollarTrak Budget App</h1>
+       <div className="dollatrak_left">
          <p className="dollartrak_text">
            Week 13: A Budget App using React- full of functionality, storing data externally into Firebase, which I plan to re-factor into a more organized version with improved styling.
          </p>
+         <img className="dollartrak_image" src="styles/DollarTrak.jpg" />
+       </div>
+       <aside className="dollartrak_aside">
          <h2 className="play_dollartrak_movie">Watch Demo of DollarTrak here:</h2>
          <video className="dollartrak_video" src="styles/dollartrak.mov" controls="controls"></video>
          <button className="dollartrak_code_button"onClick={dollartrakCode}>View Code</button>
