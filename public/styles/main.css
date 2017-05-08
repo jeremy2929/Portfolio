@@ -125,6 +125,10 @@
   margin-top: 5em;
 }
 
+.my_name_wrapper{
+  display: block;
+}
+
 .my_name_area {
   display: inline-block;
   /* IE10+ */
@@ -145,7 +149,8 @@
   margin-right: 25%;
   opacity: .9;
   margin-top: 5%;
-  width: auto;
+  text-align: center;
+  width: 50%;
 }
 
 .my_name_area:hover {
@@ -174,10 +179,10 @@
 }
 
 .my_name {
-  -webkit-animation:fade-in 5s;
+  -webkit-animation: fade-in 5s;
   opacity: 1;
   color: darkslategrey;
-  font-size: 6em;
+  font-size: 4em;
   font-family: 'Raleway', sans-serif, bold;
   margin-top: 0;
   margin-bottom: 0;
@@ -217,7 +222,7 @@
   margin: 0;
   opacity: .9;
   padding: 1em;
-  position: relative;
+  /*position: relative;*/
   height: auto;
   width: 100%;
 }
