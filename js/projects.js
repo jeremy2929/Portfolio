@@ -54,7 +54,7 @@ function showDivs(n) {
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "inline-block";
+  x[slideIndex-1].style.display = "block";
 }
 
 export function Projects() {
@@ -73,10 +73,6 @@ export function Projects() {
             <button className="tictactoe_code_button" onClick={tictactoeCode}>View Code</button>
           </div>
         </aside>
-        <article className="slide_button_area">
-          <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>
-          <button className="slide_button_right" onClick={plusDivs}>NEXT &#8680;</button>
-        </article>
       </section>
     </div>
     <div className="project_area">
@@ -92,10 +88,6 @@ export function Projects() {
             <button className="spursblog_code_button"onClick={spursblogCode}>View Code</button>
           </div>
         </aside>
-        <article className="slide_button_area">
-          <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>
-          <button className="slide_button_right" onClick={plusDivs}>NEXT &#8680;</button>
-        </article>
       </section>
     </div>
     <div className="project_area">
@@ -110,10 +102,6 @@ export function Projects() {
          <video className="dollartrak_video" src="styles/dollartrak.mov" controls="controls"></video>
          <button className="dollartrak_code_button"onClick={dollartrakCode}>View Code</button>
        </aside>
-       <article className="slide_button_area">
-         <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>
-         <button className="slide_button_right" onClick={plusDivs}>NEXT &#8680;</button>
-       </article>
      </section>
     </div>
     <div className="project_area">
@@ -146,12 +134,12 @@ export function Projects() {
             <button className="sudoku_code_button"onClick={sudokuCode}>View Code</button>
           </div>
         </aside>
-        <article className="slide_button_area">
-          <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>
-          <button className="slide_button_right" onClick={plusDivs}>NEXT &#8680;</button>
-        </article>
       </section>
     </div>
+    <article className="slide_button_area">
+      <button className="slide_button_left" onClick={prevDivs}>&#8678; PREV</button>
+      <button className="slide_button_right" onClick={plusDivs}>NEXT &#8680;</button>
+    </article>
    </div>
     )
   return element
