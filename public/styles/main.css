@@ -378,9 +378,10 @@
   float: left;
   font-size: 1em;
   font-family: 'Raleway', sans-serif, bold;
-  margin-left: 1em;
+  outline: none;
   padding: 0;
   width: 5em;
+  white-space: pre;
 }
 
 .slide_button_right {
@@ -389,6 +390,7 @@
   font-size: 1em;
   font-family: 'Raleway', sans-serif, bold;
   margin-left: 1em;
+  outline: none;
   padding: 0;
   width: 5em;
   white-space: pre;
@@ -427,19 +429,32 @@
   text-indent: 1em;
 }
 
+.tictactoe_buttons{
+  display: block;
+  font-size: 2em;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
 .tictactoe_app_button {
   background-color: darkgrey;
   color: black;
-  height: 2em;
-  width: 10em;
+  float: right;
+  font-size: .5em;
+  margin-right: 2em;
+  width: 30%;
 }
 
 .tictactoe_code_button {
   background-color: darkgrey;
   color: black;
-  height: 2em;
+  font-size: .5em;
+  float: left;
+  height: 30%;
   margin-left: 2em;
-  width: 10em;
+  width: 30%;
 }
 
 .spursblog_title {
@@ -447,39 +462,30 @@
   font-family: 'Raleway', sans-serif, bold;
   font-size: 3em;
   margin: 0;
-  /*margin: 0 auto;*/
   text-align: center;
-  /*width: 14em;*/
 }
 
 .spursblog_image{
   display: inline-block;
   margin-top: 0;
   height: 60%;
-  /*margin-left: 1em;*/
-  /*margin-top: 1em;*/
   width: 50%;
 }
 
 .spurs_blog_description {
   display: block;
-  font-size: 2em;
-  /*margin-left: 1em;*/
-  /*margin-top: 2em;*/
+  font-size: 1em;
   margin: 0 auto;
   text-align: center;
-  /*vertical-align: top;*/
-  /*width: 20em;*/
 }
 
 .spursblog_text {
-  /*font-size: 1em;*/
-  /*font-family: 'Poppins', sans-serif;*/
-  /*text-indent: 1em;*/
+  font-size: 1.2em;
 }
 
 .spursblog_buttons{
   display: block;
+  font-size: 2em;
   margin: 0 auto;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -500,7 +506,65 @@
   height: 30%;
   margin-left: 2em;
   width: 15%;
+}
 
+.dollartrak_title {
+  color: darkslategrey;
+  font-family: 'Raleway', sans-serif, bold;
+  font-size: 3em;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.dollatrak_left{
+  display: inline-block;
+  margin-left: 5%;
+  width: 55%;
+}
+
+.dollartrak_image {
+  display: inline-block;
+  height: 30%;
+  vertical-align: top;
+  width: 100%;
+}
+
+.dollartrak_aside {
+  display: inline-block;
+  margin-left: 5%;
+  vertical-align: top;
+  margin-top: 5%;
+  width: 30%;
+}
+
+.dollartrak_text {
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  text-indent: 1em;
+}
+
+.play_dollartrak_movie {
+  display: block;
+  font-size: 1em;
+  text-align: center;
+  width: auto;
+}
+
+.dollartrak_video {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  width: 80%;
+}
+
+.dollartrak_code_button {
+  background-color: darkgrey;
+  color: black;
+  display: block;
+  font-size: 1em;
+  margin: 0 auto;
+  vertical-align: top;
 }
 
 .sudoku_title {
@@ -606,79 +670,33 @@
   text-indent: 1em;
 }
 
+.sudoku_buttons{
+  display: inline-block;
+  font-size: 2em;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  width: 100%;
+}
+
 .sudoku_app_button {
   background-color: darkgrey;
   color: black;
-  height: 2em;
-  width: 10em;
+  float: left;
+  font-size: .5em;
+  height: auto;
+  margin-left: 5%;
+  width: auto;
 }
 
 .sudoku_code_button {
   background-color: darkgrey;
   color: black;
-  height: 2em;
-  margin-left: 2em;
-  width: 10em;
-}
-
-.dollartrak_title {
-  color: darkslategrey;
-  font-family: 'Raleway', sans-serif, bold;
-  font-size: 3em;
-  margin: 0 auto;
-  text-align: center;
-  width: 80%;
-}
-
-.dollatrak_left{
-  display: inline-block;
-  margin-left: 5%;
-  width: 55%;
-}
-
-.dollartrak_image {
-  display: inline-block;
-  height: 30%;
-  vertical-align: top;
-  width: 100%;
-}
-
-.dollartrak_aside {
-  display: inline-block;
-  margin-left: 5%;
-  vertical-align: top;
-  margin-top: 10%;
-  width: 30%;
-}
-
-.dollartrak_text {
-  font-size: 1em;
-  font-family: 'Poppins', sans-serif;
-  text-indent: 1em;
-}
-
-.play_dollartrak_movie {
-  display: block;
-  font-size: 1em;
-  text-align: center;
+  float: right;
+  font-size: .5em;
+  margin-right: 5%;
   width: auto;
 }
-
-.dollartrak_video {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10%;
-  width: 80%;
-}
-
-.dollartrak_code_button {
-  background-color: darkgrey;
-  color: black;
-  display: block;
-  margin: 0 auto;
-  vertical-align: top;
-}
-
 
 .posts_section {
   background-color: white;
@@ -968,17 +986,17 @@
 
   .slide_button_area {
     font-size: 2em;
-    width: 70%;
+    width: 40%;
   }
 
   .slide_button_left {
-    height: 70%;
-    width: 45%;
+    height: 50%;
+    width: auto;
   }
 
   .slide_button_right {
-    height: 70%;
-    width: 45%;
+    height: 50%;
+    width: auto;
   }
 
   .tictactoe_title {
@@ -997,25 +1015,22 @@
   .tictactoe_description {
     font-size: 2em;
     display: block;
+    height: 10em;
     margin: 0 auto;
     margin-top: 2em;
   }
 
   .tictactoe_buttons {
-    display: block;
-    height: 7em;
-    margin: 0 auto;
-    width: 15em;
+    font-size: 3em;
+
   }
 
   .tictactoe_app_button {
-    font-size: 1em;
-    width: 6em;
+    width: auto;
   }
 
   .tictactoe_code_button {
-    font-size: 1em;
-    width: 6em;
+    width: auto;
   }
 
   .project_image {
@@ -1036,20 +1051,15 @@
   }
 
   .spursblog_buttons {
-    /*display: block;*/
-    /*height: 7em;*/
-    /*margin: 0 auto;*/
-    /*width: 15em;*/
+    font-size: 3em;
   }
 
   .spursblog_app_button {
-    font-size: 1em;
     width: auto;
   }
 
   .spursblog_code_button {
-  font-size: 1em;
-  width: auto;
+    width: auto;
   }
 
   .dollartrak_title {
@@ -1076,7 +1086,7 @@
 
   .dollartrak_code_button {
     font-size: 1em;
-    margin-top: 5%;
+    margin-top: 1%;
   }
 
   .sudoku_title {
@@ -1100,22 +1110,15 @@
   }
 
   .sudoku_buttons{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+    font-size: 3em;
   }
 
   .sudoku_app_button {
-    font-size: 1em;
-    height: auto;
-    width: 7em;
+
   }
 
   .sudoku_code_button {
-    font-size: 1em;
-    height: auto;
-    margin-left: 1em;
-    width: 7em;
+
   }
 
   .posts_section {
@@ -1184,5 +1187,4 @@
     margin-bottom: 0;
     width: 100%;
   }
-
 }
