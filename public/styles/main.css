@@ -375,6 +375,7 @@
 
 .slide_button_left {
   background-color: grey;
+  float: left;
   font-size: 1em;
   font-family: 'Raleway', sans-serif, bold;
   margin-left: 1em;
@@ -384,6 +385,7 @@
 
 .slide_button_right {
   background-color: grey;
+  float: right;
   font-size: 1em;
   font-family: 'Raleway', sans-serif, bold;
   margin-left: 1em;
@@ -438,6 +440,67 @@
   height: 2em;
   margin-left: 2em;
   width: 10em;
+}
+
+.spursblog_title {
+  color: darkslategrey;
+  font-family: 'Raleway', sans-serif, bold;
+  font-size: 3em;
+  margin: 0;
+  /*margin: 0 auto;*/
+  text-align: center;
+  /*width: 14em;*/
+}
+
+.spursblog_image{
+  display: inline-block;
+  margin-top: 0;
+  height: 60%;
+  /*margin-left: 1em;*/
+  /*margin-top: 1em;*/
+  width: 50%;
+}
+
+.spurs_blog_description {
+  display: block;
+  font-size: 2em;
+  /*margin-left: 1em;*/
+  /*margin-top: 2em;*/
+  margin: 0 auto;
+  text-align: center;
+  /*vertical-align: top;*/
+  /*width: 20em;*/
+}
+
+.spursblog_text {
+  /*font-size: 1em;*/
+  /*font-family: 'Poppins', sans-serif;*/
+  /*text-indent: 1em;*/
+}
+
+.spursblog_buttons{
+  display: block;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.spursblog_app_button {
+  background-color: darkgrey;
+  color: black;
+  font-size: .5em;
+  width: 15%;
+}
+
+.spursblog_code_button {
+  background-color: darkgrey;
+  color: black;
+  font-size: .5em;
+  height: 30%;
+  margin-left: 2em;
+  width: 15%;
+
 }
 
 .sudoku_title {
@@ -616,44 +679,6 @@
   vertical-align: top;
 }
 
-.spursblog_title {
-  color: darkslategrey;
-  font-family: 'Raleway', sans-serif, bold;
-  font-size: 3em;
-  margin: 0 auto;
-  text-align: center;
-  width: 14em;
-}
-
-.spurs_blog_description {
-  display: inline-block;
-  height: 20em;
-  margin-left: 1em;
-  margin-top: 2em;
-  vertical-align: top;
-  width: 20em;
-}
-
-.spursblog_text {
-  font-size: 1em;
-  font-family: 'Poppins', sans-serif;
-  text-indent: 1em;
-}
-
-.spursblog_app_button {
-  background-color: darkgrey;
-  color: black;
-  height: 2em;
-  width: 10em;
-}
-
-.spursblog_code_button {
-  background-color: darkgrey;
-  color: black;
-  height: 2em;
-  margin-left: 2em;
-  width: 10em;
-}
 
 .posts_section {
   background-color: white;
@@ -1001,7 +1026,7 @@
     display: block;
     font-size: 3em;
     margin: 0 auto;
-    margin-top: 5em;
+    margin-top: 2em;
   }
 
   .spurs_blog_description {
@@ -1011,20 +1036,20 @@
   }
 
   .spursblog_buttons {
-    display: block;
-    height: 7em;
-    margin: 0 auto;
-    width: 15em;
+    /*display: block;*/
+    /*height: 7em;*/
+    /*margin: 0 auto;*/
+    /*width: 15em;*/
   }
 
   .spursblog_app_button {
     font-size: 1em;
-    width: 6em;
+    width: auto;
   }
 
   .spursblog_code_button {
-    font-size: 1em;
-    width: 6em;
+  font-size: 1em;
+  width: auto;
   }
 
   .dollartrak_title {
