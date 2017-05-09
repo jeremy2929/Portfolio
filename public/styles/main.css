@@ -882,10 +882,23 @@
     .tictactoe_description{
       display: block;
       margin: 0 auto;
+      height: auto;
+      margin-bottom: 10%;
     }
 
     .project_area {
       height: auto;
+    }
+
+    .cube{
+    }
+
+    .wrap {
+      display: block;
+      /*margin: 0 auto;*/
+      margin-left: 5em;
+      height: 20em;
+      width: 30em;
     }
 
 }
