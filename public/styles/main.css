@@ -869,6 +869,28 @@
 }
 
 @media only screen
+  and (min-device-width : 801px)
+  and (max-device-width : 1279px) {
+    .body_page {
+    }
+
+    .tictactoe_image {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .tictactoe_description{
+      display: block;
+      margin: 0 auto;
+    }
+
+    .project_area {
+      height: auto;
+    }
+
+}
+
+@media only screen
   and (max-device-width : 800px) {
     .body_page {
       background-image: none;
@@ -927,7 +949,7 @@
     line-height: 1.1em;
     height: auto;
     margin: 0;
-    margin-right: .8em;
+    margin-right: .7em;
     margin-left: 0;
     padding: 0;
     width: auto;
