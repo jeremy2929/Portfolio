@@ -433,7 +433,7 @@
   display: block;
   font-size: 2em;
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 10%;
   margin-bottom: 2%;
   width: 100%;
 }
@@ -441,9 +441,9 @@
 .tictactoe_app_button {
   background-color: darkgrey;
   color: black;
-  float: right;
+  float: left;
   font-size: .5em;
-  margin-right: 2em;
+  margin-left: 5%;
   width: 30%;
 }
 
@@ -451,9 +451,9 @@
   background-color: darkgrey;
   color: black;
   font-size: .5em;
-  float: left;
+  float: right;
   height: 30%;
-  margin-left: 2em;
+  margin-right: 5%;
   width: 30%;
 }
 
