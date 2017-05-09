@@ -78,11 +78,11 @@ export function Projects() {
     <div className="project_area">
       <section className="fade">
         <h1 className="spursblog_title">Spurs Blog Team Project</h1>
-        <img className="project_image" src="styles/SpursBlog.jpg" />
         <aside className="spurs_blog_description">
           <p className="spursblog_text">
             Week 6: A four member team project on a given school assignment - All about the Spurs blog site.
           </p>
+          <img className="spursblog_image" src="styles/SpursBlog.jpg" />
           <div className="spursblog_buttons">
             <button className="spursblog_app_button" onClick={spursblogApp}>Run App</button>
             <button className="spursblog_code_button"onClick={spursblogCode}>View Code</button>
